@@ -4,7 +4,7 @@ A personal portfolio website built with Flask, presenting education,
 skills, projects, and contact information for a Computer Science
 graduate.
 
-Live site: add your deployed URL here once deployed.
+Live site: https://sania-jameel-portfolio.vercel.apps
 
 ## Features
 
@@ -84,6 +84,7 @@ portfolio/
    random string works for local development.
 
    ```
+
    cp .env.example .env
    ```
 

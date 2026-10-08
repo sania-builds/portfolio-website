@@ -30,4 +30,9 @@ class Config:
 
     WTF_CSRF_ENABLED = True
 
+    # Email settings for the contact form (Gmail + app password)
+    MAIL_USERNAME = os.environ.get("MAIL_USERNAME")
+    MAIL_PASSWORD = os.environ.get("MAIL_PASSWORD")
+    MAIL_RECIPIENT = os.environ.get("MAIL_RECIPIENT")
+
     DEBUG = os.environ.get("FLASK_DEBUG", "False").lower() == "true"

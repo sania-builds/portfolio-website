@@ -137,6 +137,12 @@ a {
     font-size: 0.95rem;
 }
 
+.flash-error {
+    background: #FBE9EA;
+    color: #B4232A;
+    border: 1px solid #B4232A;
+}
+
 .flash-success {
     background: #E4F5F3;
     color: var(--teal-dark);
